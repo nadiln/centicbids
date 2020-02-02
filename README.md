@@ -17,4 +17,37 @@ CenticBids is an online bidding platform which allow users to bid for online auc
     "react-native-vector-icons": "^6.6.0",
     "react-navigation": "^4.1.0",
     "react-navigation-stack
+    
+    
+    
+# Architectural Pattern Used
+Container Component Patter where used all the functionalities in the container and keeping the component clean and reusable
+
+# Requirements Covered
+
+User should be able to sign up by providing First Name, Last Name, email and Profile pic
+Firebase Authentication
+Firebase Database Storage and data retrieval 
+
+User can view all ongoing auctions as list
+User can see following information in the auction item list
+Title
+Description
+Base Price
+LatestBid
+Images
+Bid Now button
+User can see more details about the item by selecting any auction item (Auction item details)
+User should be logged into the app to be able to place a bid (User doesn’t have to log into the app to see all ongoing auctions)
+MY Bids Page
+Develop mobile application using ReactNative with TypeScript
+Use firebase for authentication and database
+Configure VS code with prettier and eslint
+Configure and follow AirBnB coding guidelines
+Use ReactHooks for state management (Don't use Redux)
+Use react-navigation for navigation
+Use Jest and Enzyme for unit testing
+ 
+
+
 
